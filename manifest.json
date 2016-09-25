@@ -9,7 +9,8 @@
   "permissions": [ "webNavigation", "*://*/*" ],
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://www.ovaciondigital.com.uy/*", "https://www.ovaciondigital.com.uy/*",
+        "http://www.elpais.com.uy/*", "https://www.elpais.com.uy/*"],
       "js": ["jquery.js"]
     }
   ]
