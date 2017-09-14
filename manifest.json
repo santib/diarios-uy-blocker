@@ -6,7 +6,12 @@
   "version": "1.0",
 
   "background": { "scripts": ["modal_closer.js"] },
-  "permissions": [ "webNavigation", "*://*/*" ],
+  "permissions": [
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ],
   "content_scripts": [
     {
       "matches": ["http://www.ovaciondigital.com.uy/*", "https://www.ovaciondigital.com.uy/*",
