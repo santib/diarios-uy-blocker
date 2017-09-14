@@ -1,22 +1,14 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "El Pais Uruguay Blocker",
-  "description": "Cierra automaticamente el modal de registro que se abre al entrar a algunas paginas de El Pais/Ovacion Uruguay",
-  "version": "1.0",
+  "description": "Bloquea al entrar a algunas paginas de El Pais/Ovacion Uruguay de redireccionarnos al registro",
+  "version": "3.0",
 
-  "background": { "scripts": ["modal_closer.js"] },
+  "background": { "scripts": ["request-blocker.js"] },
   "permissions": [
-    "webNavigation",
     "webRequest",
     "webRequestBlocking",
     "*://*/*"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["http://www.ovaciondigital.com.uy/*", "https://www.ovaciondigital.com.uy/*",
-        "http://www.elpais.com.uy/*", "https://www.elpais.com.uy/*"],
-      "js": ["jquery.js"]
-    }
   ]
 }
