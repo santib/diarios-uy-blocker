@@ -1,15 +1,16 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 4,
 
-  "name": "El Pais Uruguay Blocker",
-  "description": "Bloquea al entrar a algunas paginas de El Pais/Ovacion Uruguay de redireccionarnos al registro",
-  "version": "3.0",
+  "name": "Diarios Uruguay Blocker",
+  "description": "Previene que los diarios de Uruguay no nos dejen informarnos gratuitamente",
+  "version": "4.0",
 
   "background": { "scripts": ["request-blocker.js"] },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
     "*://*.elpais.com.uy/*",
-    "*://*.ovaciondigital.com.uy/*"
+    "*://*.ovaciondigital.com.uy/*",
+    "*://*.elobservador.com.uy/*"
   ]
 }
