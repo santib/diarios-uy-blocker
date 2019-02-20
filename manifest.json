@@ -11,6 +11,7 @@
     "webRequestBlocking",
     "*://*.elpais.com.uy/*",
     "*://*.ovaciondigital.com.uy/*",
-    "*://*.elobservador.com.uy/*"
+    "*://*.elobservador.com.uy/*",
+    "*://*.tvshow.com.uy/*"
   ]
 }
