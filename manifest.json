@@ -1,5 +1,5 @@
 {
-  "manifest_version": 4,
+  "manifest_version": 2,
 
   "name": "Diarios Uruguay Blocker",
   "description": "Previene que los diarios de Uruguay no nos dejen informarnos gratuitamente",
